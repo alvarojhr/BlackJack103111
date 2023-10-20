@@ -166,5 +166,9 @@ public class GameController {
             System.out.println("Error loading game.");
         }
     }
+
+    public boolean isRunning() {
+        return running;
+    }
 }
 
